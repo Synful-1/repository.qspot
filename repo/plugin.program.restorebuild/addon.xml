@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.restorebuild"
+       name="Restore Dropbox Build"
+       version="1.0.0"
+       provider-name="Techman">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Restore Kodi Build from Dropbox</summary>
+        <description>Downloads and restores a Kodi build zip from Dropbox</description>
+        <platform>all</platform>
+	<icon>icon.png</icon>
+    </extension>
+</addon>
