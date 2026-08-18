@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.qspotwizard"
+       name="Q Spot Restore Wizard"
+       version="1.0.0"
+       provider-name="Techman">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Custom Kodi Build Restore</summary>
+        <description>Downloads and restores Kodi build from Dropbox link</description>
+        <platform>all</platform>
+ 	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
