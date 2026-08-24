@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.qspotwizard" name="Restore Wizard" version="1.0" provider-name="Techman">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Techman Custom Kodi Build Restore Wizard</summary>
+    <description lang="en_GB">Downloads and restores your custom Kodi backup build.zip file from Dropbox.</description>
+    <platform>all</platform>
+	<assets>
+	  <icon>icon.png</icon>
+	  <fanart>fanart.jpg</fanart>
+   </assets>
+  </extension>
+</addon>
